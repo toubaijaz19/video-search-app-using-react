@@ -1,0 +1,27 @@
+.list-item{
+    margin-bottom: 3px;
+}
+.video-item{
+    margin-top: 20px;
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+.item.ui.cards.segment {
+    cursor: pointer;
+    height: 270px;
+    margin-bottom: 20px;
+}
+.ui.cards>.card>.content>.header:not(.ui) {
+    font-weight: 700;
+    font-size: 1em;
+    margin-top: -.21425em;
+    line-height: 1em;
+}
+@media only screen and (max-width: 768px) {
+    .item.ui.cards.segment {
+    cursor: pointer;
+    height: fit-content;
+    margin-bottom: 2px;
+}
+}
